@@ -1,11 +1,17 @@
 {
-    "name": "bernhardh/nova-translation-editor",
+    "name": "ifp/nova-translation-editor",
     "description": "Laravel Nova translation editor",
     "keywords": [
         "laravel",
         "nova"
     ],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ifp/nova-translation-editor"
+        }
+    ],
     "require": {
         "php": ">=7.3.0",
         "spatie/laravel-translation-loader": ">=2.6.3"
